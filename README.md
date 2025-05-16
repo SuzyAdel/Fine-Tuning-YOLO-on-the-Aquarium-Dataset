@@ -22,3 +22,16 @@ We are fine-tuning a YOLO object detection model on an Aquarium image dataset. T
 | **Model Output** | Bounding boxes + class labels the model predicts from the image |
 
 # Augmentation 
+WHY?
+1. Horizontal Flip: Fish and other aquarium objects can appear facing either left or right, so flipping helps the model generalize across orientations.
+
+2. Random Brightness & Contrast: Aquarium lighting varies, so this simulates different light conditions for robustness.
+
+3. Shift, Scale & Rotate: Slight positional and size changes plus mild rotation simulate natural variance and camera angle differences.
+![image](https://github.com/user-attachments/assets/1115b623-6fa4-48e6-a20b-707ed82f6a92)
+
+
+![image](https://github.com/user-attachments/assets/df987040-9ab4-44f0-a85f-e7b5ef0d30d7)
+
+# OBSERVSATIOM
+Data augmentation enhances bounding box accuracy by increasing the diversity and variability of training samples, enabling the model to generalize better across different spatial transformations and lighting conditions; this leads to improved robustness and precision in object localization, as empirically demonstrated by higher mean Average Precision (mAP) scores and reduced localization errors in evaluation metrics.
