@@ -30,7 +30,7 @@ WHY?
 3. Shift, Scale & Rotate: Slight positional and size changes plus mild rotation simulate natural variance and camera angle differences.
 ![image](https://github.com/user-attachments/assets/1115b623-6fa4-48e6-a20b-707ed82f6a92)
 
-
+# Validation 
 ![image](https://github.com/user-attachments/assets/df987040-9ab4-44f0-a85f-e7b5ef0d30d7)
 
 # OBSERVSATIOM
