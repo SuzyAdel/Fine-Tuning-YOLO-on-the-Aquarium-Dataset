@@ -1,4 +1,5 @@
 # Fine-Tuning-YOLO-on-the-Aquarium-Dataset
+![image](https://github.com/user-attachments/assets/1a2ada33-0973-467d-84ef-34dba4f447d5)
 
 # 🧠 What Are We Trying to Do?
 We are fine-tuning a YOLO object detection model on an Aquarium image dataset. This means we want the model to:
